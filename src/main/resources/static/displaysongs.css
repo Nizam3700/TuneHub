@@ -1,0 +1,30 @@
+body {
+    background-color: #ffa500;  /* Orange background */
+    font-family: Arial, sans-serif; /* Default font family */
+    text-align: center; /* Center-align text */
+}
+
+table {
+    width: 80%; /* Set table width to 80% of the viewport */
+    margin: 20px auto; /* Center-align the table */
+    border-collapse: collapse; /* Collapse border spacing */
+}
+
+th, td {
+    padding: 10px; /* Add padding to table cells */
+    border: 1px solid #ddd; /* Add border to table cells */
+}
+
+th {
+    background-color: #007bff; /* Blue background for table header */
+    color: white; /* White text color for table header */
+}
+
+td {
+    background-color: #fff; /* White background for table cells */
+}
+
+audio {
+    width: 100%; /* Set audio player width to 100% of its container */
+    margin: 0 auto; /* Center-align audio player */
+}

@@ -1,0 +1,9 @@
+
+body {
+    background-image: 'https://images.pexels.com/photos/3822728/pexels-photo-3822728.jpeg?auto=compress&cs=tinysrgb&w=600' ; /* Path to your background image */
+    
+}
+h2 {
+    text-align: center; /* Center-align heading */
+    padding-top: 50px; /* Add space on top */
+}

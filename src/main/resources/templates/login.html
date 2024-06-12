@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet type=text/css th:href="@{/login.css}">
+  <title>Login Form</title>
+</head>
+<body>
+  <h1>User Login</h1>
+  <form action="validate" method="post"> 
+  <label>Email:</label>
+    <input type="email" name="email" required>
+    <br><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" name="password" required>
+    <br><br>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>

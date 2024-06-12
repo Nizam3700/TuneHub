@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>User Registration Form</title>
+    <link rel=stylesheet type=text/css th:href="@{/registration.css}">
+</head>
+<body>
+    <h2>User Registration Form</h2>
+    <form action="register" method="post">
+        <label>Username:</label>
+        <input type="text"  name="username">
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Password:</label>
+        <input type="password"  name="password" required >
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male">Male
+       
+        <input type="radio" name="gender" value="female">Female
+      
+        <input type="radio" name="gender" value="other">Other
+        <br><br>
+
+        <label>Role:</label>
+        <input type="radio" name="role" value="admin">Admin
+        
+        <input type="radio" name="role" value="customer">Customer
+       <br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

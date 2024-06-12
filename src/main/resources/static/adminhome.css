@@ -1,0 +1,24 @@
+body {
+  background-color: #f8f8f8; /* Light gray background */
+  font-family: Arial, sans-serif; /* Default font family */
+  text-align: center; /* Center-align text */
+}
+
+h1 {
+  color: #333; /* Dark gray text color */
+  margin-top: 50px; /* Add some space on top */
+}
+
+a {
+  display: inline-block; /* Display links inline */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding */
+  text-decoration: none; /* Remove underline */
+  border-radius: 4px; /* Add rounded corners */
+  margin: 20px; /* Add some space around links */
+}
+
+a:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
